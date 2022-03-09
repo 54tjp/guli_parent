@@ -14,6 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 //@MapperScan("com.attang.eduservice.mapper.xml")
 public class EduApplication {
     public static void main(String[] args) {
+        System.out.println("SSH");
         SpringApplication.run(EduApplication.class,args);
     }
 }
